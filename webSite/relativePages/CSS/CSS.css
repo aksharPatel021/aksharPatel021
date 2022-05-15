@@ -1,0 +1,124 @@
+/*Akshar Patel - 3090870 - ACS-1809-003 - Project*/
+body {
+    font-family: Courier , times new roman, sans-serif, cursive, helvetica;
+    font-size: 15px;
+    margin: auto;
+    position:absolute;
+              margin-left: 0%;
+              margin-right: 0%;
+              padding-left: 16%;
+              padding-right: 16%;
+              color:white;
+                background-image: url("../bg.jpg");
+}
+img {
+    float: left;
+    margin: 10px 25px 0px 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    width:0px;
+    margin:0px;
+        padding:0px;                
+}
+
+.menu {width:1000px;
+}
+li {
+    background-color:rgba(255,0,0, 0.2);
+    float: left;
+    border-left:1px rgb(255,255,255) solid;
+}
+.fit {
+  max-width: 978px;
+  max-height: 978px;
+  margin: 0px auto;
+  border-top: 34px red solid;
+}
+.fit2 {
+  max-width: 978px;
+  max-height: 978px;
+  margin: 0px auto;
+  border-top: 2px rgb(255,255,255) solid;
+}
+
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 50px 32px;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    background-color: rgba(0,255,0,0.7);
+}
+.active {
+    background-color: red;
+}
+footer{
+                clear:both;
+               padding-top: 25px;
+               padding-bottom: 25px;
+                text-align: center;
+                margin: 0;
+       font-family: times new roman, cursive, helvetica, sans-serif;
+       font-size:16px;
+        background-color:rgba(255,0,0, 0.2);
+       
+            }
+            .fixed{
+                border-left:1px rgb(255,255,255) solid;
+                border-right:1px rgb(255,255,255) solid;
+          }
+          
+          a:link{color:rgb(255,255,255);}
+            a:active{color:rgb(255,255,255);}
+            a:hover {color:rgb(255,255,255);}
+            a:visited{color:rgb(255,255,255);}
+            a{text-decoration: underline overline;}
+            
+            .developer{
+                border:1px rgb(255,255,255) solid;
+                padding:14px;
+                text-align: center;
+                margin: 0;
+       font-family:cursive, times new roman, helvetica, sans-serif;
+       font-size:14px;
+        background-color:rgba(255,0,0, 0.2);
+            }
+            .content{
+                clear:both;
+               padding: 14px 52px 25px 25px;
+                text-align: left;
+                color: rgb(0,0,0);
+       font-family: arial, sans-serif;
+       font-size:14px;
+        background-color:silver;
+        border-bottom: 1px rgb(0,0,0) solid;
+                
+            }
+            #ACB{
+                clear:both;
+                padding: 21px 52px 28px 0px;
+                margin:0px;
+                color: rgb(0,0,0);
+       font-family: arial, sans-serif;
+       font-size:14px;
+       text-align:left;
+        background-color:silver;
+        border-bottom: 1px rgb(255,255,255) solid;
+            }
+            form{
+                font-size: 21px;
+                background-color:rgba(255,0,0, 0.3);
+                color:white;
+                margin:0px;
+                padding:34px 34px 34px 70px;
+            }
